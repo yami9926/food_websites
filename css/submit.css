@@ -1,0 +1,65 @@
+.container{
+    width:100%;
+    height:100vh;
+    background: url('../img/greenf.jpg')no-repeat center center/cover ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.9;
+  
+}
+
+form{
+  background:  url('../img/food.jpg') ;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4px 55px 14px 24px;
+    width: 90%;
+    max-width: 700px;
+    border-radius: 10px;
+    
+  
+}
+
+form h3{
+  
+    color: #444141;
+    font-weight: 800;
+    margin-bottom: 40px;
+    font-size: 40px;
+    
+}
+form input,form textarea{
+    border: 0;
+    margin: 15px;
+    outline: none;
+    background: white;
+    font-size: 23px;
+    border-radius: 10px;
+    padding: 7px 28px 20px 153px;
+  
+
+}
+
+form button{
+    padding: 15px 2px 21px 0px;
+    background: linear-gradient(90deg, #1C0E96 0%, #5CC6E7 100%);
+    color: white;
+    font-size: 20px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    width: 207px;
+    margin: 20px auto 1px;
+    border-radius: 400px;
+    z-index: -0;
+    opacity: 0.8;
+   
+
+}
+
+/* */
+
+
+
